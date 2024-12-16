@@ -1,8 +1,8 @@
 import React from "react";
 import Boton from "../boton/boton";
-import "./confirmarAsistencia.css";
+import "./ConfirmarAsistencia.css";
 
-const ConfirmarAsistencia = () => {
+const ConfirmarAsistencia = ({ onClick }) => {
   return (
     <div className="confirmar-asistencia">
       <div className="asistencia-icono">
@@ -15,8 +15,9 @@ const ConfirmarAsistencia = () => {
       </div>
       <Boton
         texto="CONFIRMAR ASISTENCIA"
-        onClick={() => alert("¡Gracias por confirmar tu asistencia!")}
-        estilo="asistencia-boton"
+        tipo="informacion"
+        onClick={onClick}
+        clase="boton-confirmar"
       />
     </div>
   );

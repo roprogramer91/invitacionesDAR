@@ -10,8 +10,6 @@
   padding: 0;
 }
 
-
-
 .seccion-eventos {
   display: flex;
   justify-content: center;
@@ -49,6 +47,26 @@
   margin: 40px 0;
 }
 
+/* Sección Información */
+.seccion-info {
+  display: flex; /* Flexbox para alinear en fila */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
+  flex-wrap: wrap; /* Permite que los elementos salten de línea si es necesario */
+  gap: 40px; /* Espacio entre los elementos */
+  margin: 50px 0; /* Márgenes superior e inferior */
+  padding: 0 20px; /* Padding horizontal */
+}
+
+.evento-info {
+  text-align: center;
+  background-color: #fdf8f1;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 250px; /* Ancho fijo para cada bloque */
+}
 
 
 

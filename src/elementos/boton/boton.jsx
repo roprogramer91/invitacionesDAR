@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import Popup from "../popup/Popup";
-import "./Boton.css";
+import Popup from "../popup/popup";
+import "./boton.css";
 
 const Boton = ({
   texto,

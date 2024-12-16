@@ -1,0 +1,100 @@
+/* Fondo oscuro del popup */
+.formulario-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Contenedor del formulario */
+  .formulario-popup {
+    position: relative;
+    background-color: #fdf8f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  /* Botón de cerrar */
+  .formulario-cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .formulario-cerrar:hover {
+    color: #000;
+  }
+  
+  /* Campos del formulario */
+  .formulario-campo {
+    margin-bottom: 15px;
+  }
+  
+  .formulario-campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5c5c5c;
+  }
+  
+  .formulario-campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .formulario-campo input:focus {
+    border-color: #c79f5c;
+    outline: none;
+  }
+  
+  /* Botones del formulario */
+  .formulario-boton {
+    width: 100%;
+    padding: 10px;
+    background-color: #c79f5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .formulario-boton:hover {
+    background-color: #a98045;
+  }
+  
+  .formulario-boton-cancelar {
+    width: 100%;
+    padding: 10px;
+    background-color: #ddd;
+    color: #666;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .formulario-boton-cancelar:hover {
+    background-color: #bbb;
+  }
+  

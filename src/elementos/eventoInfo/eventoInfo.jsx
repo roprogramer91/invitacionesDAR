@@ -1,5 +1,5 @@
 import React from "react";
-import Boton from "../boton/Boton";
+import Boton from "../boton/boton";
 import "./eventoInfo.css";
 
 const EventoInfo = ({ icono, titulo, descripcion, botonTexto, botonTipo, botonParametros, botonIcono, popupData }) => {
