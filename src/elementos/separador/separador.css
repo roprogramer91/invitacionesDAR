@@ -1,0 +1,26 @@
+.separador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los elementos */
+    margin: 20px 0; /* Margen superior e inferior */
+  }
+  
+  .separador-linea {
+    flex: 1;
+    height: 2px;
+    background-color: #c79f5c; /* Color dorado */
+  }
+  
+  .separador-icono {
+    font-size: 1.5rem;
+    color: #c79f5c;
+  }
+  
+  .separador-texto {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #c79f5c;
+    font-family: "Dancing Script", cursive;
+  }
+  

@@ -7,6 +7,7 @@ import Historia from "./elementos/historia/historia";
 import AlbumFotos from "./elementos/albumFotos/albumFotos";
 import ConfirmarAsistencia from "./elementos/confirmarAsistencia/confirmarAsistencia";
 import Boton from "./elementos/boton/boton"; // Importar el botón reutilizable
+import Separador from "./elementos/separador/separador";
 import "./App.css";
 
 const App = () => {
@@ -70,6 +71,9 @@ const App = () => {
         </div>
       </div>
 
+      {/* Separador */}
+      <Separador icono="fas fa-heart" />
+
       {/* Sección de Información de Eventos */}
       <div className="seccion-eventos">
         <EventoInfo
@@ -110,6 +114,9 @@ const App = () => {
 
       {/* Álbum de Fotos */}
       <AlbumFotos titulo="Momentos únicos" imagenes={imagenesAlbum} />
+
+      {/* Separador */}
+      <Separador texto="Momentos Únicos" />
 
       {/* Confirmación de Asistencia */}
       <ConfirmarAsistencia />
