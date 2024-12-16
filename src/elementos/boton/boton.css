@@ -1,27 +1,59 @@
 .boton {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px 20px;
-    background-color: #c79f5c;
-    color: white;
+    background-color: #e6b877;
+    color: #fff;
     text-decoration: none;
-    border: none;
-    border-radius: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
     font-size: 1rem;
-    text-align: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    text-transform: uppercase;
   }
   
   .boton:hover {
-    background-color: #a98045;
+    background-color: #d49f5e; /* Color de fondo al pasar el mouse */
+    color: #fff; /* Asegura que el texto permanezca blanco */
+    transform: scale(1.05);
+  }
+
+  /* Elimina cualquier estilo azul predeterminado de enlaces */
+.boton:active,
+.boton:focus,
+.boton:visited {
+  color: #fff; /* Mantiene el color blanco en todos los estados */
+  text-decoration: none; /* Asegura que no haya subrayado */
+}
+
+.boton i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+    color: inherit; /* Hereda el color del botón */
   }
   
-  .boton.secundario {
-    background-color: #f8f5f0;
-    color: #5c5c5c;
+  .boton.boton-agendar {
+    background-color: #e6b877;
   }
   
-  .boton.redondo {
-    border-radius: 50px;
+  .boton.boton-agendar:hover {
+    background-color: #d49f5e;
+  }
+  
+  .boton.boton-maps {
+    background-color: #5a9bd5;
+  }
+  
+  .boton.boton-maps:hover {
+    background-color: #4a8bc0;
+  }
+  
+  .boton.boton-informacion {
+    background-color: #7db369;
+  }
+  
+  .boton.boton-informacion:hover {
+    background-color: #6b9f58;
   }
   

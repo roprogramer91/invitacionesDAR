@@ -27,19 +27,3 @@
     color: #666;
   }
   
-  .evento-boton {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 15px;
-    background-color: #c79f5c;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-  }
-  
-  .evento-boton:hover {
-    background-color: #a98045;
-  }
-  

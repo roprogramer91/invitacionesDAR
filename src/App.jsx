@@ -6,6 +6,7 @@ import EventoInfo from "./elementos/eventoInfo/eventoInfo";
 import Historia from "./elementos/historia/historia";
 import AlbumFotos from "./elementos/albumFotos/albumFotos";
 import ConfirmarAsistencia from "./elementos/confirmarAsistencia/confirmarAsistencia";
+import Boton from "./elementos/boton/boton"; // Importar el botón reutilizable
 import "./App.css";
 
 const App = () => {
@@ -50,7 +51,24 @@ const App = () => {
       />
 
       {/* Contador */}
-      <Contador fechaEvento={fechaDelEvento} />
+      <div className="contador-seccion">
+        <Contador fechaEvento={fechaDelEvento} />
+        <div className="boton-agendar">
+          <Boton
+            texto="AGENDAR FECHA"
+            tipo="agenda"
+            parametros={{
+              fechaInicio: "20241222T000000Z",
+              fechaFin: "20241222T040000Z",
+              titulo: "¡Nos Casamos!",
+              descripcion: "Únete a nuestro día especial para celebrar juntos.",
+              ubicacion: "Registro Civil, Av. Rivadavia 123, Ciudad.",
+            }}
+            icono="fas fa-calendar-check"
+            clase="boton-agendar"
+          />
+        </div>
+      </div>
 
       {/* Sección de Información de Eventos */}
       <div className="seccion-eventos">
@@ -59,21 +77,27 @@ const App = () => {
           titulo="Civil"
           descripcion="Registro Civil. Av. Rivadavia 123, Ciudad."
           botonTexto="CÓMO LLEGAR"
-          botonEnlace="https://maps.google.com"
+          botonTipo="maps"
+          botonParametros={{ url: "https://maps.google.com" }}
+          botonIcono="fas fa-map-marker-alt"
         />
         <EventoInfo
           icono="fas fa-church"
           titulo="Ceremonia"
           descripcion="Iglesia Nuestra Señora. Calle Falsa 123, Ciudad."
           botonTexto="CÓMO LLEGAR"
-          botonEnlace="https://maps.google.com"
+          botonTipo="maps"
+          botonParametros={{ url: "https://maps.google.com" }}
+          botonIcono="fas fa-map-marker-alt"
         />
         <EventoInfo
           icono="fas fa-glass-cheers"
           titulo="Festejo"
           descripcion="Salón de Eventos. Av. Siempre Viva 456, Ciudad."
           botonTexto="CÓMO LLEGAR"
-          botonEnlace="https://maps.google.com"
+          botonTipo="maps"
+          botonParametros={{ url: "https://maps.google.com" }}
+          botonIcono="fas fa-map-marker-alt"
         />
       </div>
 
