@@ -1,0 +1,45 @@
+.evento-info {
+    text-align: center;
+    background-color: #fdf8f1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 250px; /* Tamaño de cada bloque */
+  }
+  
+  .evento-icono i {
+    font-size: 2.5rem;
+    color: #c79f5c; /* Dorado */
+  }
+  
+  .evento-titulo {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5c5c5c;
+  }
+  
+  .evento-hora,
+  .evento-descripcion {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .evento-boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #c79f5c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+  
+  .evento-boton:hover {
+    background-color: #a98045;
+  }
+  

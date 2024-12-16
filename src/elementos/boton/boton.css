@@ -1,0 +1,27 @@
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c79f5c;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: #a98045;
+  }
+  
+  .boton.secundario {
+    background-color: #f8f5f0;
+    color: #5c5c5c;
+  }
+  
+  .boton.redondo {
+    border-radius: 50px;
+  }
+  

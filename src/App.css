@@ -1,0 +1,45 @@
+/* Márgenes para la portada */
+/* Elimina márgenes entre encabezado y portada */
+.portada-con-margen {
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.seccion-eventos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 50px 0;
+  padding: 0 20px;
+}
+
+.info-adicional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.evento-info {
+  text-align: center;
+  width: 300px;
+}
+
+.evento-info .evento-icono i {
+  font-size: 2.5rem;
+  color: #c79f5c;
+}
+
+.evento-info .evento-descripcion {
+  font-size: 1rem;
+  color: #666;
+}

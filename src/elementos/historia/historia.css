@@ -1,0 +1,43 @@
+.historia {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Asegura que ambos elementos ocupen el mismo alto */
+    justify-content: center;
+    margin: 50px 0;
+    background-color: #f8f5f0; /* Color de fondo general */
+  }
+  
+  .historia-imagen {
+    flex: 1; /* La imagen ocupa el 50% del espacio */
+  }
+  
+  .historia-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantiene la imagen ajustada sin deformarla */
+  }
+  
+  .historia-texto {
+    flex: 1; /* El texto ocupa el otro 50% */
+    background-color: #c79f5c; /* Color dorado */
+    color: #fff; /* Texto blanco */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .historia-texto h2 {
+    margin: 0 0 20px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .historia-texto p {
+    margin: 0;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 1rem;
+  }
+  

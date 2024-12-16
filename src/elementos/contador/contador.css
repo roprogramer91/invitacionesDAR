@@ -1,0 +1,59 @@
+/* Contenedor principal */
+.contador {
+    text-align: center;
+    margin: 50px 0;
+    color: #5c5c5c;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Título superior */
+  .contador-titulo {
+    font-size: 1.5rem;
+    color: #c79f5c; /* Color dorado */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Fecha del evento */
+  .contador-fecha {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Contenedor de los números */
+  .contador-numeros {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Estilo de cada bloque de tiempo */
+  .contador-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdf8f1;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contador-item span {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .contador-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  

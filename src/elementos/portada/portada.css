@@ -1,0 +1,69 @@
+.portada {
+    position: relative;
+    width: 100vw; /* Ancho completo */
+    height: 400px; /* Altura de la portada */
+    overflow: hidden;
+  }
+  
+  .swiper-portada {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .portada-imagen {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: kenBurnsZoom 10s infinite alternate; /* Efecto Ken Burns */
+  }
+  
+  @keyframes kenBurnsZoom {
+    from {
+      transform: scale(1); /* Sin zoom */
+    }
+    to {
+      transform: scale(1.1); /* Zoom in suave */
+    }
+  }
+  
+  .texto-superpuesto {
+    position: absolute;
+    bottom: 30px; /* Alineado a la parte inferior */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    z-index: 10;
+  }
+  
+  .texto-superpuesto h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .texto-superpuesto p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .flecha {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: white;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translate(-50%, 0);
+    }
+    50% {
+      transform: translate(-50%, -10px);
+    }
+  }
+  

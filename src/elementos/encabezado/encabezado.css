@@ -1,0 +1,42 @@
+/* Contenedor principal del encabezado */
+.encabezado {
+    position: sticky;
+    top: 0; /* Se queda pegado en la parte superior */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    z-index: 10; /* Asegura que esté sobre otros elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  /* Contenedor interno */
+  .contenedor-encabezado {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Título principal */
+  .titulo-encabezado {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: "Times New Roman", serif; /* Tipografía predeterminada */
+    font-weight: bold;
+    color: #d4a373; /* Color dorado suave */
+    line-height: 1.2;
+  }
+  
+  /* Tipografía dinámica */
+  .tipografia-script {
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+  }
+  
+  .tipografia-modern {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  
