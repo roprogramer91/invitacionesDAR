@@ -1,8 +1,8 @@
 import React from "react";
-import Boton from "../boton/boton";
+import Boton from "../boton/Boton";
 import "./eventoInfo.css";
 
-const EventoInfo = ({ icono, titulo, descripcion, botonTexto, botonTipo, botonParametros, botonIcono }) => {
+const EventoInfo = ({ icono, titulo, descripcion, botonTexto, botonTipo, botonParametros, botonIcono, popupData }) => {
   return (
     <div className="evento-info">
       <div className="evento-icono">
@@ -17,6 +17,7 @@ const EventoInfo = ({ icono, titulo, descripcion, botonTexto, botonTipo, botonPa
           parametros={botonParametros}
           icono={botonIcono}
           clase="evento-boton"
+          popupData={popupData} // Pasamos los datos del popup
         />
       )}
     </div>

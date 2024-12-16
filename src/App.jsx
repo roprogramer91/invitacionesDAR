@@ -118,6 +118,23 @@ const App = () => {
       {/* Separador */}
       <Separador texto="Momentos Únicos" />
 
+      <EventoInfo
+  icono="fas fa-gift"
+  titulo="Regalos"
+  descripcion="¿Quieres hacernos un regalo? Más información aquí."
+  botonTexto="MÁS INFORMACIÓN"
+  botonTipo="informacion"
+  botonIcono="fas fa-info-circle"
+  popupData={{
+    titulo: "Regalos",
+    texto: "Si deseas hacernos un regalo, nos encantaría que nos ayudes con nuestra luna de miel. Puedes hacer un depósito en la siguiente cuenta bancaria: IBAN XXXX-XXXX-XXXX.",
+    imagen: "https://via.placeholder.com/300x200",
+    colorFondo: "#f8f5f0",
+    colorTexto: "#333",
+  }}
+/>
+
+
       {/* Confirmación de Asistencia */}
       <ConfirmarAsistencia />
     </div>
