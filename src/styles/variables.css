@@ -1,0 +1,13 @@
+/* variables.css */
+:root {
+    /* Colores principales */
+    --color-primario: #c79f5c; /* Dorado o marroncito */
+    --color-secundario: #fdf8f1; /* Beige derivado */
+    --color-blanco: #ffffff; /* Blanco */
+    --color-negro: #000000; /* Negro */
+  
+    /* Otros Colores */
+    --color-hover: #a98045; /* Color primario oscuro para hover */
+    --color-borde: #f0e2c2; /* Bordes suaves */
+  }
+  
