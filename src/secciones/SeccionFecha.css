@@ -1,0 +1,21 @@
+.seccion-fecha {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .boton-agendar {
+    margin-top: 20px;
+  }
+  
+  .boton-agendar .boton {
+    background-color: #c79f5c;
+    color: white;
+    border-radius: 25px;
+    padding: 12px 24px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-agendar .boton:hover {
+    background-color: #a98045;
+  }
+  

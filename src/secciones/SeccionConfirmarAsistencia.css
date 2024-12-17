@@ -1,0 +1,20 @@
+.seccion-confirmar-asistencia {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .seccion-confirmar-asistencia .boton {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c79f5c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .seccion-confirmar-asistencia .boton:hover {
+    background-color: #a98045;
+  }
+  

@@ -15,9 +15,9 @@ const ConfirmarAsistencia = ({ onClick }) => {
       </div>
       <Boton
         texto="CONFIRMAR ASISTENCIA"
-        tipo="informacion"
-        onClick={onClick}
+        onClick={onClick} // Pasamos la función directamente
         clase="boton-confirmar"
+        icono="fas fa-calendar-check"
       />
     </div>
   );

@@ -1,0 +1,19 @@
+.seccion-presentacion {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .seccion-presentacion .encabezado {
+    margin-bottom: 0;
+  }
+  
+  .seccion-presentacion .portada {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  

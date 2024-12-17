@@ -1,5 +1,15 @@
+/* Márgenes generales y reset */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #fffdf8;
+  color: #5c5c5c;
+}
+
 /* Márgenes para la portada */
-/* Elimina márgenes entre encabezado y portada */
 .portada-con-margen {
   margin: 0;
   padding: 0;
@@ -10,6 +20,19 @@
   padding: 0;
 }
 
+/* Sección de fechas */
+.contador-seccion {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.boton-agendar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Sección de eventos */
 .seccion-eventos {
   display: flex;
   justify-content: center;
@@ -19,54 +42,60 @@
   padding: 0 20px;
 }
 
-.info-adicional {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
+/* Sección historia */
+.seccion-historia img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Sección álbum */
+.seccion-album {
+  text-align: center;
+  margin: 50px auto;
+}
+
+
+/* Sección confirmar asistencia */
+.seccion-confirmar-asistencia {
+  text-align: center;
   margin: 50px 0;
 }
 
-.evento-info {
-  text-align: center;
-  width: 300px;
+.boton {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #c79f5c;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
 }
 
-.evento-info .evento-icono i {
-  font-size: 2.5rem;
-  color: #c79f5c;
+.boton:hover {
+  background-color: #a98045;
 }
 
-.evento-info .evento-descripcion {
-  font-size: 1rem;
-  color: #666;
-}
-
-.contador-seccion {
-  text-align: center;
-  margin: 40px 0;
-}
-
-/* Sección Información */
-.seccion-info {
-  display: flex; /* Flexbox para alinear en fila */
-  justify-content: center; /* Centra los elementos horizontalmente */
-  align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
-  flex-wrap: wrap; /* Permite que los elementos salten de línea si es necesario */
-  gap: 40px; /* Espacio entre los elementos */
-  margin: 50px 0; /* Márgenes superior e inferior */
-  padding: 0 20px; /* Padding horizontal */
-}
-
-.evento-info {
-  text-align: center;
-  background-color: #fdf8f1;
+/* Mensaje de confirmación */
+.mensaje-confirmacion {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
   border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  width: 250px; /* Ancho fijo para cada bloque */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  z-index: 1000;
+  animation: fadeInOut 5s ease-in-out;
 }
 
-
-
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  10%, 90% {
+    opacity: 1;
+  }
+}

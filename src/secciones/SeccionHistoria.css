@@ -1,0 +1,27 @@
+.seccion-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+  }
+  
+  .seccion-historia img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .seccion-historia .titulo {
+    font-size: 2rem;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+  }
+  
+  .seccion-historia .descripcion {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  

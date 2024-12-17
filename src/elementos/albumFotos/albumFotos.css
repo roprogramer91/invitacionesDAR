@@ -1,7 +1,9 @@
 .album-fotos {
+  display: flex;
   text-align: center;
   margin: 50px 0;
   padding: 0 20px;
+  flex-direction: column;
 }
 
 .album-titulo {
